@@ -1,0 +1,17 @@
+LoginPage:
+    username:   username
+    password:   password
+    submit: /html/body/table/tbody/tr[1]/td[2]/form/table/tbody/tr[6]/td/input[1]
+    successinfo:    /html/body/table/tbody/tr[1]/td/span
+    framemain:  /html/frameset/frame[2]
+    failedinfo: /html/body/table/tbody/tr[1]/td[2]/form/table/tbody/tr[5]/td
+Customerpage:
+    frameLink:  /html/frameset/frame[1]
+    customermanager:    //*[@id="Bar_panel0_b0"]/img
+    framemain:  /html/frameset/frame[2]
+    newcustomer:    /html/body/center/table[2]/tbody/tr[2]/td[2]/a
+    newcustomerwindowtitle: 新增客户信息
+    customerNO: customerNO
+    customerName:   customerName
+    phone:  phone
+    address:    address
